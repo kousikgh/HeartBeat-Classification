@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Local data and generated artifacts
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+models/*.pkl
+models/*.joblib
+results/*
+!results/.gitkeep
+instance/*.db
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
